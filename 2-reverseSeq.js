@@ -12,6 +12,6 @@
 
 // const reverseSeq = (n) => [...Array(n)].map((el, i) => i + 1).reverse();
 
-const reverseSeq = (n) => [...Array(n)].map((el, i) => n - i);
+const reverseSeq = (n) => [...Array(n)].map((_, i) => n - i);
 
 console.log(reverseSeq(5));
